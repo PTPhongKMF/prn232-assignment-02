@@ -1,0 +1,6 @@
+@FUNMS.API_HostAddress = http://localhost:5173
+
+GET {{FUNMS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

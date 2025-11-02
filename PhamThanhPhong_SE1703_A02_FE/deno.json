@@ -1,0 +1,42 @@
+{
+  "name": "fu-news-management-system",
+  "version": "0.1.0",
+  "exports": "./index.html",
+
+  "tasks": {
+    "dev": "vite"
+  },
+
+  "nodeModulesDir": "auto",
+  "imports": {
+    "@kobalte/core": "npm:@kobalte/core@^0.13.11",
+    "@solid-primitives/storage": "npm:@solid-primitives/storage@^4.3.3",
+    "@solidjs/router": "npm:@solidjs/router@^0.15.3",
+    "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.1.16",
+    "@tanstack/solid-query": "npm:@tanstack/solid-query@^5.90.6",
+    "clsx": "npm:clsx@^2.1.1",
+    "ky": "npm:ky@^1.13.0",
+    "lucide-solid": "npm:lucide-solid@^0.548.0",
+    "solid-js": "npm:solid-js@^1.9.10",
+    "tailwind-merge": "npm:tailwind-merge@^3.3.1",
+    "tailwindcss": "npm:tailwindcss@^4.1.16",
+    "tailwindcss-animate": "npm:tailwindcss-animate@^1.0.7",
+    "valibot": "npm:valibot@^1.1.0",
+    "vite": "npm:vite@^7.1.12",
+    "vite-plugin-solid": "npm:vite-plugin-solid@^2.11.10"
+  },
+
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "types": ["vite/client"],
+
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}
